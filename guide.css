@@ -1,5 +1,4 @@
 body {
-	background-image: url(images/2006.pale.jpg);
     color: #222;
     font-family: Utopia, Georgia, Times, serif;
     line-height: 110%;
@@ -11,7 +10,6 @@ body.chapter {
     padding-bottom: 36px;
 }
 body.expansion {
-    background: url(images/2006.pakback.png);
     padding-bottom: 36px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -99,7 +97,6 @@ pre {
 	margin: 0; padding: 0;
 }
 #bookcontents {
-	background: url(images/2006.contents.jpg) no-repeat;
 	margin: 0; padding: 55px 120px 40px 20px;
     margin-top: -3px;
 	font-size: 9pt;
@@ -113,10 +110,6 @@ pre {
 	left: 147px;
     z-index: 2;
 }
-/* set the image to use and establish the lower-right position */
-.foxbox, .foxbox_body, .foxbox_head 
-{ 
-    background: transparent url(images/2006.foxbox.jpg) no-repeat bottom right;
 }
 /* set the top-right image */
 .foxbox_head
@@ -171,8 +164,6 @@ pre {
     line-height: 170%;
 }
 #main {
-    padding-top: 20px;
-	margin-left: 410px;
 }
 #main li {
     font-size: 1.2em;
