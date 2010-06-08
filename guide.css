@@ -1,3 +1,7 @@
+img {
+  max-width: 300px;
+  text-align: center;
+}
 body {
     color: #222;
     font-family: Utopia, Georgia, Times, serif;
@@ -90,7 +94,6 @@ pre {
 }
 #sidepane {
     float: left;
-	width: 420px;
 	z-index: 20;
 }
 #bookplate {
@@ -185,8 +188,7 @@ p#terms {
 .sidebar {
     color: #000;
 	background-image: url(images/2006.pale.jpg);
-    width: 280px;
-    float: right;
+    /*float: right;*/
     padding: 0;
     margin: 0;
     margin-left: 14px;
@@ -224,7 +226,6 @@ p#terms {
     background-color: #FFFFFF;
     color: #666666;
     font-size: .8em;
-    width: auto;
     margin: 0px 14px;
 }
 .sidebar pre {
@@ -249,7 +250,6 @@ p#terms {
     color: #4A4A4A;
     padding: 0;
     padding-top: 10px;
-    width: 850px;
     margin: 0px auto;
 }
 #banner {
@@ -271,7 +271,6 @@ p#terms {
 }
 #container {
     background: url(images/2006.bookstripe.gif) bottom left repeat-x;
-    width: 850px;
     margin: 0px auto;
     text-align: center;
     padding: 0;
@@ -310,7 +309,6 @@ body.expansion #banner a:hover {
 }
 .pageTitle {
     line-height: 200%;
-    width: 600px;
     margin: 0px auto;
     text-align: center;
 }
