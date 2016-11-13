@@ -1,0 +1,3 @@
+[submodule "poignant-guide"]
+	path = poignant-guide
+	url = https://github.com/mislav/poignant-guide
