@@ -1,22 +1,8 @@
-# epub version of "why's (poignant) guide to ruby"
+## Download epub File
 
-__OWN YOUR RISK__
+A pre-build epub can be downloaded from the [relese page on github](https://github.com/callumgare/poignant-guide-epub/releases).
 
-## What's this?
-
-This is epub version (optimized iBooks on iPad) of "why's (poignant) guide to ruby".
-
-I tested at iBooks on iPad, And I don't support other environments/viewers.
- (Some viewers doesn't support styles, images, codes...)
-
-## Attentions
-
-* Optimized to iBooks.app on iPad. It can download in App Store (Free!)
-* I don't support.
-
-## Get epub file
-
-### From source
+## Build epub File From Source
 
 #### Requirements
 
@@ -32,23 +18,9 @@ I tested at iBooks on iPad, And I don't support other environments/viewers.
     $ bundler install
     $ bundler install --gemfile=poignant-guide
     $ ruby make.rb
-
-And drop "poignant-guide.epub" (It will create in poignant-guide-epub directory.) to iTunes.
-
-### From dropbox (easy)
-
-#### Requirements
-
-* HTTP client which can save file (wget, chrome, safari, firefox... but, telnet can't.)
-
-#### How to
-
-<http://dl.dropbox.com/u/261861/docs/poignant-guide.epub>
-
-And drop "poignant-guide.epub" (It will create in poignant-guide-epub directory.) to iTunes.
+    
+The file "poignant-guide.epub" should hopeful have been created in the cwd.
 
 ## Acknowledgements
 
-* The original soundtrack and PDF edition are also available in [the download section](http://github.com/mislav/poignant-guide/downloads) on GitHub.
 * This book is under the [Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/2.5/).
-
