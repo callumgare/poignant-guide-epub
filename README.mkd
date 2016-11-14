@@ -20,14 +20,17 @@ I tested at iBooks on iPad, And I don't support other environments/viewers.
 
 #### Requirements
 
-* eeepub (not official. http://github.com/sorah/eeepub)
 * ruby
+* bundler ($ gem install bundler)
 * git (optional. git is used for download source. GitHub's "Download source" can substitute for this)
 
 #### How to
 
     $ git clone http://github.com/sorah/poignant-guide-epub
     $ cd poignant-guide-epub
+    $ git submodule update --init --recursive
+    $ bundler install
+    $ bundler install --gemfile=poignant-guide
     $ ruby make.rb
 
 And drop "poignant-guide.epub" (It will create in poignant-guide-epub directory.) to iTunes.
